@@ -1,0 +1,14 @@
+@import url(header.css);
+@import url(main.css);
+
+:root{
+    --color-almost-black: hsl(0, 0%, 8%);
+    --color-almost-white: hsl(0, 0%, 98%);
+    --color-medium-gray: hsl(0, 0%, 41%);
+
+    --font-epilogue: "Epilogue";
+}
+
+*{
+    box-sizing: border-box;
+}

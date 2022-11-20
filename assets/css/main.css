@@ -1,0 +1,44 @@
+main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__background--mobile{
+    background-image: url(../images/image-hero-mobile.png);
+
+    background-size: cover;
+    height: 43vh;
+    width: 100vw;
+}
+
+h1{
+    font-family: var(--font-epilogue);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.main__text{
+    color: var(--color-medium-gray);
+    font-family: var(--font-epilogue);
+    line-height: 1.6rem;
+    padding: 0rem .8rem;
+    text-align: center;
+}
+
+.main__button{
+    background-color: var(--color-almost-black);
+    border-radius: 1rem;
+    font-family: var(--font-epilogue);
+    margin-top: 1.5rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+
+.main__button a{
+    color: var(--color-almost-white);
+    text-decoration: none;
+}
