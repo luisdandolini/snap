@@ -1,0 +1,18 @@
+footer{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.footer__img{
+    height: .8rem;
+}
+
+.footer__img--audio{
+    height: 1.5rem;
+}
+
+.footer__img--maker{
+    height: 1rem;
+}
