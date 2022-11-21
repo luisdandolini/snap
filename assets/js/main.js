@@ -1,3 +1,4 @@
+// Menu
 var openMobile = document.querySelector(".nav__open");
 var closeMobile = document.querySelector(".nav__close");
 var subMenu = document.querySelector(".nav__submenu");
@@ -30,10 +31,9 @@ var arrowUps = document.querySelector(".nav__arrow--ups");
 arrowDown.addEventListener("click", arrowOpen);
 function arrowOpen () {
     subList.style.display = "block";
-    arrowUp.style.display = "block";
+    arrowUp.style.display = "inline";
     arrowDown.style.display = "none";
 }
-
 
 arrowUp.addEventListener("click", arrowClose);
 function arrowClose () {
@@ -47,10 +47,9 @@ function arrowClose () {
 arrowDowns.addEventListener("click", arrowTop);
 function arrowTop () {
     companyList.style.display = "block";
-    arrowUps.style.display = "block";
+    arrowUps.style.display = "inline";
     arrowDowns.style.display = "none";
 }
-
 
 arrowUps.addEventListener("click", arrowbottom)
 function arrowbottom () {
