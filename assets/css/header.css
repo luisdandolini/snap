@@ -6,18 +6,29 @@ nav{
 }
 
 .nav__close{
-    display: none;
-    left: 88%;
+/*    display: none;*/
+    left: 81.2%;
     position: absolute;
 }
 
 .nav__submenu{
+    background-color: var(--color-almost-white);
     color: var(--color-medium-gray);
     font-family: var(--font-epilogue);
-    height: 100vh;
+    height: 100%;
     line-height: 2.5rem;
 
-    display: none;
+    position: absolute;
+    top: 0%;
+    left: 35.2%;
+    width: 65vw;
+    padding-top: 1.5rem;
+    margin-right: 5rem;
+}
+
+ul{
+    margin-left: 2rem;
+    margin-top: 3rem;
 }
 
 .nav__arrow{
@@ -41,11 +52,6 @@ nav{
     font-family: var(--font-epilogue);
     text-align: center;
     text-decoration: none;
-
-}
-
-#teste{
-    margin-top: 5rem;
 }
 
 .nav__button--register{
