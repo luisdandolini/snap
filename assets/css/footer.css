@@ -16,3 +16,8 @@ footer{
 .footer__img--maker{
     height: 1rem;
 }
+
+
+@media screen and (min-width: 1440px){
+    
+}

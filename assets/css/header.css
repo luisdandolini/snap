@@ -18,7 +18,7 @@ nav{
     height: 100%;
     line-height: 2.5rem;
 
-    
+    display: none;
     position: absolute;
     top: 0%;
     left: 35.2%;
@@ -78,4 +78,32 @@ nav{
     margin-top: 1rem;
     padding: .6rem 4rem;
     text-decoration: none;
+}
+
+
+@media screen and (min-width: 1440px){
+    .nav__submenu{
+        display: flex;
+        height: 10%;
+        padding-top: 0rem;
+    }
+
+    .nav__ul--father{
+        display: flex;
+    }
+
+    .nav__open,
+    .nav__close{
+        display: none;
+    }
+
+    .nav__container--buttons{
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .nav__button--login,
+    .nav__button--register{
+        padding: 1rem 1.5rem;
+    }
 }
